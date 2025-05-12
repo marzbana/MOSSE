@@ -4,6 +4,14 @@ This repository contains the code, data, and documentation for our project: **Re
 
 ---
 
+## Running the code
+- All the test videos used have been uploaded to this URL: https://uofi.box.com/s/uca3n2afk5m1sqvro0gezzf8gl4zhi94
+- To run the code, ensure the test images are in the folder structure of '/Media/OTB/test_video_name/img/'
+- Ensure all the frames are present in the above directory
+- Ensure that the ground truth is stored as a CSV in grounttruth_rect.txt at 'Media/OTB/test_video_name/'
+- To run the code for the test 'ballMoving' video, ensure the file is included at '/Media/'
+- Ensure python, and dependent packages (opencv, matplotlib, Numpy) are installed
+
 ## Overview
 
 Tracking objects in video streams has many applications in surveillance, robotics, and augmented reality. The MOSSE tracker is known for its speed and robustness, making it ideal for real-time performance. In this project, we:
